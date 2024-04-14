@@ -5,14 +5,14 @@ What does the following code return?
 new Set([1,1,2,2,3,4])
 ```
 + `new Set([1,1,2,2,3,4])`
-    - returns `Set(4) { 1, 2, 3 ,4 }`
+    - returns `Set(4) { 1, 2, 3, 4 }`
 ---
 ### Quick Question #2
 What does the following code return?
 ```javascript
 [...new Set("referee")].join("")
 ```
-+ [...new Set("referee")].join("")
++ `[...new Set("referee")].join("")`
     - returns `"ref"`
 ---
 # Quick Questions #3
@@ -22,7 +22,7 @@ let m = new Map();
 m.set([1,2,3], true);
 m.set([1,2,3], false);
 ```
-+ m
++ `m`
     - returns `Map(2) {Array(3) => true, Array(3) => false}`
 ---
 ### hasDuplicate
